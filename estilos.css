@@ -1,0 +1,344 @@
+body {
+    background-color: rgb(255, 214, 237);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.contenedor {
+    width: 70%;
+    background-color: rgb(255, 214, 237);
+    border-radius: 15px;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+nav button {
+    border: none;
+    padding: 6px 12px;
+    margin: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+#inicio {
+    background-color: #FF9FEA;
+}
+.hero {
+    background-color: #FFCAFE;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+.hero h1 {
+    font-weight: bold;
+    margin-top: 0;
+}
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.tabs {
+    text-align: center;
+    margin-top: 15px;
+}
+.tabs button {
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tab-activa {
+    background-color: #6a4c75;
+    color: white;
+}
+.tab {
+    background-color: #E8E6F1;
+    color: #333;
+}
+.noticias {
+    background-color: #FFCAFE;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.noticias article {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.noticias img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+.noticias h2 {
+    font-size: 16px;
+    margin: 0;
+}
+.noticias p {
+    font-size: 14px;
+    margin: 4px 0 0 0;
+}
+hr {
+    border: none;
+    border-top: 1px solid #E8AEE0;
+    margin: 6px 0;
+}
+.violencia {
+    background-color: #FFCAFE;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.violencia h2 {
+    color: #2a0033;
+    font-size: 18px;
+}
+.violencia ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+.violencia li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+.grafico {
+    text-align: center;
+    margin: 10px 0;
+}
+.grafico img {
+    width: 80%;
+    border-radius: 10px;
+}
+.enlaces a {
+    color: #6a4c75;
+    text-decoration: none;
+}
+.enlaces a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #FFCAFE;
+    border-radius: 12px;
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+}
+footer h3 {
+    margin-top: 0;
+}
+.icono-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.icono-central img {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+.noticias article {
+    background-color: #F7BDF1;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+.noticias article:hover {
+    transform: scale(1.01);
+}
+.noticias article img {
+    width: 50%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #f0c9ee;
+}
+.noticias article h2 {
+    font-size: 16px;
+    color: #2a0033;
+    margin-bottom: 5px;
+}
+.noticias article p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+.caso {
+    background-color: #F7BDF1;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+.caso img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.caso h3 {
+    font-size: 16px;
+    color: #5A1D6C;
+    margin-bottom: 5px;
+}
+.caso p {
+    margin: 0;
+    color: #333;
+}
+.tabs {
+    text-align: center;
+    margin-top: 15px;
+}
+.tabs button {
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #E8E6F1;
+    color: #333;
+}
+.tab-activa {
+    background-color: #6a4c75;
+    color: white;
+}
+
+.noticias a {
+    color: #6a4c75;
+    text-decoration: none;
+    font-weight: bold;
+}
+.noticias a:hover {
+    text-decoration: underline;
+}
+.tabs button {
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #E8E6F1;
+    color: #333;
+    transition: background-color 0.2s, color 0.2s;
+}
+.tabs button:hover {
+    background-color: #d1b9e7;
+    color: #2a0033;
+}
+.tabs button:focus,
+.tabs button:active {
+    background-color: #6a4c75;
+    color: #fff;
+    outline: none;
+}
+.material {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+.material article {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F7BDF1;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+.material img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #f0c9ee;
+}
+.material h3 {
+    margin: 0;
+    color: #5A1D6C;
+}
+.material p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+.material a {
+    color: #6a4c75;
+    text-decoration: none;
+    font-weight: bold;
+}
+.material a:hover {
+    text-decoration: underline;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.formulario label {
+    font-weight: bold;
+    color: #5A1D6C;
+}
+.formulario input,
+.formulario textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: #fff;
+}
+.formulario button {
+    background-color: #6a4c75;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.formulario button:hover {
+    background-color: #8c6fa2;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.redes .red img {
+    border-radius: 50%;
+    background-color: #f7bdf1;
+    padding: 8px;
+    transition: transform 0.2s;
+}
+.redes .red img:hover {
+    transform: scale(1.1);
+}
+.violencia p strong {
+    color: #5A1D6C;
+}
+h2{
+    color:#6a4c75;
+}

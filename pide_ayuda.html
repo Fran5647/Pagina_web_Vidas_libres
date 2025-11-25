@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidas Libres - Pide ayuda</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <header>
+            <nav>
+                <a href="index.html"><button>Inicio</button></a>
+                <a href="pide_ayuda.html"><button id="inicio">Pide ayuda</button></a>
+                <a href="noticias.html"><button>Noticias</button></a>
+            </nav>
+        </header>
+        <section class="hero">
+            <h1>VIDAS LIBRES</h1>
+        </section>
+        <section class="noticias">
+            <h2>Teléfonos de emergencia</h2>
+            <p>Teléfonos como el <strong>016</strong> o el <strong>112</strong> pueden ser de ayuda en caso de emergencias relacionadas a la violencia de género.</p>
+        </section>
+        <section class="violencia">
+            <h2>Los puntos violetas</h2>
+            <p>Los puntos violetas son sitios seguros con gente lista para ayudarte en caso de que necesites refugiarte debido a que tu seguridad corra peligro. Desde aquí se puede contactar a las autoridades en caso de emergencia o sospecha de violencia, facilitando la actuación inmediata.</p>
+            <div class="icono-central">
+                <img src="sirena.png" alt="Icono de emergencia" width="100">
+            </div>
+            <div class="grafico mapa">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.734!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997823b9f15%3A0xa0f62f6fef72ed0!2sMadrid!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0; border-radius:12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        <section class="noticias">
+            <h2>Consejos para la seguridad digital</h2>
+            <p>En muchos casos la violencia de género se agrava por la poca seguridad digital. Aquí algunos consejos para mejorarla:</p>
+            <ol>
+                <li>🔒 Usa contraseñas fuertes y diferentes para cada cuenta. No las compartas con nadie, ni siquiera con tu pareja.</li>
+                <li>🧩 Activa la verificación en dos pasos para proteger tus cuentas.</li>
+                <li>📱 Controla el acceso a tu teléfono y redes: usa PIN, huella o reconocimiento facial.</li>
+                <li>🔐 Revisa la privacidad en redes sociales para limitar quién puede ver tus publicaciones y datos personales.</li>
+                <li>📍 Evita compartir ubicación en tiempo real o publicaciones que revelen dónde estás.</li>
+                <li>⚠️ Desconfía de mensajes sospechosos o enlaces extraños.</li>
+                <li>💻 Usa navegadores privados o apps de seguridad para proteger tus datos.</li>
+                <li>🆘 Si te sientes vigilada o acosada, contacta líneas de ayuda o autoridades especializadas.</li>
+            </ol>
+        </section>
+        <section class="violencia">
+            <h2>Recursos disponibles para voluntarios</h2>
+            <p>Si sientes o sabes que alguien está sufriendo violencia de género puedes contactar a nuestra asociación con los siguientes datos:</p>
+            <p><strong>Número:</strong> 961 000 000<br>
+               <strong>Correo:</strong> libertad_genero@gmail.com</p>
+            <p>Nos encargamos del mantenimiento de diversos puntos violeta repartidos por toda España. En caso de que alguna persona necesite ayuda, puedes contactarnos para coordinar la atención con personal especializado.</p>
+            <p>Si quieres unirte como voluntario, recibirás formación sobre cómo actuar en cada situación. Puedes pedir información escribiendo al correo indicado.</p>
+        </section>
+        <section class="violencia">
+            <h2>Formulario de contacto</h2>
+            <p>Puedes ponerte en contacto con la Asociación Vidas Libres para solicitar información, colaboración o ayuda.</p>
+
+            <form class="formulario" onsubmit="return false;">
+                <label for="nombre-contacto">Nombre</label>
+                <input type="text" id="nombre-contacto" name="nombre-contacto" placeholder="Tu nombre completo" required>
+
+                <label for="correo-contacto">Correo electrónico</label>
+                <input type="email" id="correo-contacto" name="correo-contacto" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="mensaje-contacto">Mensaje</label>
+                <textarea id="mensaje-contacto" name="mensaje-contacto" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar mensaje (no funcional)</button>
+            </form>
+        </section>
+        <section class="noticias">
+            <h2>Síguenos en redes sociales</h2>
+            <p>Mantente al día de nuestras campañas, eventos y actividades a través de nuestras redes:</p>
+
+            <div class="redes">
+                <a href="#" class="red"><img src="icono-instagram.png" alt="Instagram" width="40"></a>
+                <a href="#" class="red"><img src="icono-twitter.png" alt="Twitter" width="40"></a>
+                <a href="#" class="red"><img src="icono-facebook.png" alt="Facebook" width="40"></a>
+            </div>
+        </section>
+        <section class="violencia">
+            <h2>Sobre la Asociación Vidas Libres</h2>
+            <p><strong>Dirección:</strong> Calle Solidaridad, 10 — 46001, Valencia</p>
+            <p><strong>Teléfono:</strong> 961 000 000</p>
+            <p><strong>Correo:</strong> libertad_genero@gmail.com</p>
+            <p><strong>Horario de atención:</strong> Lunes a viernes de 9:00 a 18:00</p>
+            <p>La Asociación Vidas Libres trabaja desde 2015 en la prevención, sensibilización y erradicación de la violencia de género, ofreciendo apoyo a víctimas y promoviendo la igualdad entre todas las personas.</p>
+        </section>
+        <footer>
+            <h3>Contáctanos</h3>
+            <p><strong>Número:</strong> 961 000 000</p>
+            <p><strong>Correo:</strong> libertad_genero@gmail.com</p>
+        </footer>
+    </main>
+</body>
+</html>
